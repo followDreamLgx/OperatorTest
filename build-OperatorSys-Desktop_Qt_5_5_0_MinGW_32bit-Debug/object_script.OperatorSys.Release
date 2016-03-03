@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\Block.o
+./release\CreateJob.o
+./release\JobControl.o
+./release\ProcessControl.o
+./release\MainWindow.o
+./release\MyLock.o
+./release\moc_CreateJob.o
+./release\moc_JobControl.o
+./release\moc_ProcessControl.o
+./release\moc_MainWindow.o
+);

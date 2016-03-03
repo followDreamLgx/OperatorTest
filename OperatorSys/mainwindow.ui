@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>691</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>作业</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="ExternalMemory">
+       <row>
+        <property name="text">
+         <string>作业1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>作业2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>作业3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>作业4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>作业5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>作业6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>作业7</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>作业名</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>所需内存</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>所需磁带机</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>所需运行时间</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>到达时间</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>优先级</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>进程</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="Memory">
+       <row>
+        <property name="text">
+         <string>进程1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>进程2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>进程3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>进程4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>进程5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>进程6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>进程7</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>作业名</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>所需内存</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>所需磁带机</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>所需运行时间</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>已经运行时间</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>优先级</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="SourseTable">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>550</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>内存量</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>磁带机量</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>剩余资源</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>60</y>
+      <width>97</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QRadioButton" name="FCFS">
+       <property name="text">
+        <string>FCFS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="SJF">
+       <property name="text">
+        <string>SJF</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="PAS">
+       <property name="text">
+        <string>PAS</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="CPU">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>691</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>CPU</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>作业名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>所需内存</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>所需磁带机</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>所需运行时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>已经运行时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>优先级</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>140</y>
+      <width>97</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="MoreJob">
+       <property name="text">
+        <string>MoreJob</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Single">
+       <property name="text">
+        <string>SingleSys</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="MultipassSys">
+       <property name="text">
+        <string>MultipassSys</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>290</y>
+      <width>91</width>
+      <height>84</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QRadioButton" name="FCFSPRO">
+       <property name="text">
+        <string>FCFSPRO</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="SJFPRO">
+       <property name="text">
+        <string>SJFPRO</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="PASPRO">
+       <property name="text">
+        <string>PASPRO</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QRadioButton" name="TUREPRO">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>580</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>江晓銮</string>
+    </property>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>SourseTable</zorder>
+   <zorder>CPU</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>TUREPRO</zorder>
+   <zorder>SJFPRO</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>985</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

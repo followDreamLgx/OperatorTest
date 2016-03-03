@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>868</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="Memory">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>70</y>
+      <width>551</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>内存块</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>起始地址</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>大小</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>是否被使用</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>需要占用时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>已经占用时间</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="Quest">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>141</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="autoScroll">
+     <bool>true</bool>
+    </property>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>请求</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>内存需求</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>284</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="Again">
+       <property name="text">
+        <string>Again</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Worst">
+       <property name="text">
+        <string>Best</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="LoopFit">
+       <property name="text">
+        <string>LoopFit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="FirstFit">
+       <property name="text">
+        <string>FirstFit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>868</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

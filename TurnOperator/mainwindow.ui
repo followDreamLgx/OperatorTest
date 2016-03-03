@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="memoryWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>561</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>进程1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>进程8</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>作业名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>所需内存</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>所需运行时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>已经运行时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>优先权</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>60</y>
+      <width>97</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="Turn">
+       <property name="text">
+        <string>Turn</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="DynatisPower">
+       <property name="text">
+        <string>DynatisPower</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>MultiQueue</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>721</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
