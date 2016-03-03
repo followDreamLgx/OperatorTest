@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\Block.o
+./debug\CreateJob.o
+./debug\JobControl.o
+./debug\ProcessControl.o
+./debug\MainWindow.o
+./debug\MyLock.o
+./debug\moc_CreateJob.o
+./debug\moc_JobControl.o
+./debug\moc_ProcessControl.o
+./debug\moc_MainWindow.o
+);
